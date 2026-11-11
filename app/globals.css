@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+:root {
+  --charcoal: #1E1E1C;
+  --sand: #D8CBB3;
+  --claude: #D97757;
+}
+
+@theme inline {
+  --color-charcoal: var(--charcoal);
+  --color-sand: var(--sand);
+  --color-claude: var(--claude);
+  --color-claude-dark: #C4623F;
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+body {
+  background: var(--charcoal);
+  color: var(--sand);
+  font-family: Arial, Helvetica, sans-serif;
+}
